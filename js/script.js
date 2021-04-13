@@ -4,6 +4,9 @@ function init(){
 		alert('Hello);
 	}
 	
+	var c1 = document.getElementsByClassName('center');
+	
+	
 
 
 
