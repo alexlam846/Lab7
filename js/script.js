@@ -4,7 +4,7 @@ function init(){
 		alert('Hello');
 	}
 	
-	var d1 = document.getElementById('entrybutton');
+	var c1 = document.getElementById('entrybutton');
 	
 	c1.addEventListener('click', myEventFunction);
 	
