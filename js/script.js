@@ -1,7 +1,7 @@
 function init(){
 //add your javascrip between these two lines of code
 	function myEvenFunction(){
-		alert('Hello);
+		alert('Hello');
 	}
 	
 	var d1 = document.getElementByID('entrybutton');
