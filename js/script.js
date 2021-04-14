@@ -5,9 +5,7 @@ function init(){
 	}
 	
 	var c1 = document.getElementById('entrybutton');
-	var t1 = document.getElementById('entryinput');
 	
-	t1.addEventListener('textcontrol', myEventFuncttion);
 	c1.addEventListener('click', myEventFunction);
 	
 	c1.addEventListener('click', function(){
