@@ -10,6 +10,7 @@ function init(){
 	
 	c1.addEventListener('click', function(){
 		console.log('I was Clicked!');
+		s1.innerHTML = t1.value;
 	});
 	
 }
