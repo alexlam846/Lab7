@@ -7,13 +7,14 @@ function init(){
 	var c1 = document.getElementById('entrybutton');
 	var t1 = document.getElementById('entryinput');
 	
+	t1.addEventListener('textcontrol');
 	c1.addEventListener('click', myEventFunction);
 	
 	c1.addEventListener('click', function(){
 		console.log('I was Clicked!');
 	});
 	
-	t1.addEventListener('textcontrol');
+	
 	
 }
 window.addEventListener('load', init);
