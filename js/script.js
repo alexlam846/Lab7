@@ -8,12 +8,8 @@ function init(){
 	
 	c1.addEventListener('click', myEventFunction);
 	
-	
-
-
-
-
-
-
+	c1.addEventListener('click', function(){
+		console.log('I was Clicked!');
+	});
 
 window.addEventListener('load', init);
