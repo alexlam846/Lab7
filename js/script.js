@@ -1,7 +1,7 @@
 function init(){
 //add your javascrip between these two lines of code
 	function myEventFunction(){
-		alert('Alexis Lam: ' + t1);
+		alert('Alexis Lam: ' + t1.value);
 	}
 	
 	var c1 = document.getElementById('entrybutton');
