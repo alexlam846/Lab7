@@ -13,7 +13,7 @@ function init(){
 		console.log('I was Clicked!');
 	});
 	
-	t1.addEventListener('textcontrol')
+	t1.addEventListener('textcontrol');
 	
 }
 window.addEventListener('load', init);
